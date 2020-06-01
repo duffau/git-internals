@@ -1,4 +1,4 @@
-# Building a Git-repo from the gound up
+## Building a Git-repo from the gound up
 
 ---
 
