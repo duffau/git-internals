@@ -3,18 +3,30 @@ set -e
 rm -rf myrepo
 
 # Command to live monitor .git folder: watch -n 0.2 tree -a .
+# start snippet make-myrepo
 mkdir myrepo
 cd myrepo
+# end snippet make-myrepo
 
 # Making a git repo the regular way
+# start snippet git-init
 git init
+# end snippet git-init
+# start snippet git-rm
 rm -rf .git
+# end snippet git-rm
 
+# start snippet git-init-manual
 # Inititalizing repo manually
 mkdir .git
 mkdir .git/objects
 mkdir .git/refs
 echo "ref: refs/heads/master" > .git/HEAD
+# end snippet git-init-manual
+
+# start snippet git-status
+git status
+# end snippet git-status
 
 # Making som file
 echo "Some content" > first_file.txt
