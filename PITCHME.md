@@ -2,15 +2,19 @@
 
 ---
 
-# References
+### References
 
-#### Git Internals by John Britton of GitHub - CS50 Tech Talk
+##### Git Internals by John Britton of GitHub - CS50 Tech Talk
 https://www.youtube.com/watch?v=lG90LZotrpo
 
-#### Git From the Bits Up - Tim Berglund
+##### Git From the Bits Up - Tim Berglund
 https://www.youtube.com/watch?v=MYP56QJpDr4&t=2459s
 
-#### "Git Internals" book by Scott Chacon
+---
+
+### References
+
+##### "Git Internals" book by Scott Chacon
 https://github.com/pluralsight/git-internals-pdf/raw/master/drafts/peepcode-git.pdf
 
 #### "Pro Git" book by Scott Chacon and Ben Strau
