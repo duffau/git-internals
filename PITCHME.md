@@ -1,10 +1,8 @@
 ## Building a Git-repo from the gound up
 
----
 
----?code=git-internals-pres.sh&lang=bash
+---?code=git-internals-pres.sh&lang=bash&lines=1-5
 
----
 
 ---?code=git-utils.sh&lang=bash
 
