@@ -2,6 +2,13 @@
 
 ---
 
+---?code=git-internals-pres.sh&lang=bash
+
+---
+
+---?code=git-utils.sh&lang=bash
+
+---
 ### References
 
 ##### Git Internals by John Britton of GitHub - CS50 Tech Talk
