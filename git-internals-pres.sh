@@ -175,6 +175,11 @@ git cat-file -p 2d40
 # The third and final object type in the git datamodel is the commit-object.
 # The commit is a reference to the tree, which in turn refers to the blob and the file in
 # the repo's folder.
+
+# The structure of the commit is at text file:
+
+# commit {size of content}\0{content}
+
 COMMIT_SHA1=$(git commit-tree 2d40b0701c6d0556d6d69fc400dd40f1171a9bf1 -m "Initial commit")
 echo $COMMIT_SHA1
 # > ab4131d5e0740372e18ee84279f82fa09b05aceb
